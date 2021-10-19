@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgba(230, 239, 245, 1);
+    
+}
+
+.azul span , .numero h2 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+
+p  {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+   
+}
+
+.branca h1 {
+    color: rgba(42, 179, 177, 1);
+    margin-bottom: 24px;
+}
+
+.branca h2 {
+    color: rgba(192, 223, 51, 1);
+    margin-bottom: 11px;
+}
+
+.branca p {
+    color: rgba(154, 167, 190, 1);
+    line-height: 26px;
+}
+.branca  {
+    background-color: white;
+    padding: 40px;
+    max-width: 635px;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    max-width: 635px;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+
+.azul {
+    background-color: rgba(42, 179, 177, 1);
+    padding: 40px;
+    color: white;
+   
+    
+}
+
+.azul span{
+    margin-bottom: 18px;
+   
+    
+}
+
+.azul p {
+    margin-bottom: 26px;
+}
+a {
+    background-color: rgba(192, 223, 51, 1);
+    color: white;
+    text-decoration: none;
+    padding: 15px 89px;
+    border-radius: 5px;
+}
+
+.azul-claro {
+    max-width: 317px;
+    background-color: rgba(42, 179, 177, 0.7);
+    padding: 40px;
+    color: white;
+
+}
+
+.azul-claro h1 {
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+
+.azul-claro p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    
+}
+ .numero {
+     display: flex;
+     margin-top:18px;
+     justify-content: space-between;
+     max-width: 147px;
+     
+    
+ }
+
+ .numero p {
+     margin-top: 8px;
+ }

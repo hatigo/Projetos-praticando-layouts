@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/*cabeçalho*/
+header {
+    background-image: url('/casa-03/assets/image-header.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 34px 48px 300px 48px;
+    text-align: center;
+   
+    
+
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 105px;
+    max-width: 1150px;
+}
+
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+header li {
+    margin-left: 48px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    
+}
+
+.contato {
+    color:rgba(36, 48, 62, 1);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: white;
+    padding: 16px 32px;
+    border-radius: 28px;
+    max-width: 100vw;
+}
+ 
+header h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 69px;
+    color:white;
+    text-align: center;
+    margin-bottom: 96px;
+}
+
+
+/*seção 1*/
+.lista {
+    display:flex;
+    flex-wrap: wrap;
+    
+   
+    
+
+}
+
+.lista div {
+    background-color: #F2F2F2;
+    padding:100px 110px 100px 165px;
+    max-width:674px;
+    
+}
+
+.lista h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    color:rgba(36, 48, 62, 1);
+    margin-bottom: 32px;
+
+}
+
+.lista p {
+    color:rgba(128, 131, 151, 1);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.lista a {
+    color: rgba(36, 48, 62, 1);
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    text-decoration: none;
+
+}
+
+div.foto .ovo  {
+    margin:0;
+    padding:0;
+    display: flex;
+    
+}
+.ovo img {
+    width: 674.5px;
+}
+.taça img {
+    width: 674.5px;
+}
+
+
+
+div.foto .taça  {
+    display: flex;
+    margin:0;
+    padding:0;
+    
+}
+
+.design , .fotografia {
+    text-align: center;
+}
+
+.design h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    color: rgba(36, 85, 74, 1);
+
+}
+
+.desing p {
+    color: rgba(62, 116, 103, 1);
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+div.design {
+    padding: 350px 190px 60px 190px;
+    margin:0;
+    background-image: url('/casa-03/assets/image-graphic-design.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+div.fotografia{
+    padding: 350px 190px 60px 190px;
+    background-image: url('/casa-03/assets/image-photography.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fotografia h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    color: rgba(5, 44, 59, 1);
+}
+
+.fotografia p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(62, 116, 103, 1);
+
+}
+
+/*testimonials*/
+
+
+.testimonials  {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color:rgba(167, 170, 173, 1);
+    background-color: #F2F2F2;
+    text-align: center;
+    padding-bottom: 81px;
+}
+
+.card {
+    background-color: #F2F2F2;
+    padding: 81px 30px 285px 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card p {
+    font-family: 'Barlow', sans-serif;
+    color: rgba(91, 99, 109, 1);
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom:69px;
+
+}
+
+.card h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(36, 48, 62, 1);
+    margin-bottom: 9px;
+
+
+}
+
+.card h2 span {
+    color:rgba(167, 170, 173, 1);
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+
+}
+
+.card img {
+    border-radius: 50%;
+    margin-bottom: 58px;
+    max-width: 350px;
+}
+
+/*fotos no final*/
+
+.final{
+    display: flex;
+}
+.final img {
+    margin:0;
+    padding:0;
+    max-width: 337px;
+}
+
+/*rodapé*/
+
+footer {
+    background-color: rgba(144, 212, 198, 1);
+    text-align: center;
+    padding: 72px;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    max-width: 297px;
+    margin:0 auto;
+    
+    
+    
+}
+li {
+    margin-top: 40px;
+}
+
+.links a {
+    text-decoration: none;
+    
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    color: rgba(69, 141, 126, 1);
+    margin-left: 57px;
+    
+   
+    
+}
+
+.redes-sociais ul {
+    max-width: 164px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    margin-left: 28px;
+}
+
+
+.redes-sociais li {
+    margin-top: 88px;
+   
+
+}
+
+.redes-sociais img {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.logo-dark {
+    margin:0 auto;
+}
+
+
+/*font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;*/
